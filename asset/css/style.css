@@ -1,0 +1,65 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #272525;
+    color: #046491;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.kal {
+    background-color: #1a0b14;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    width: 300px;
+}
+
+h1 {
+    color: #e9054a;
+    margin-bottom: 20px;
+}
+
+p {
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.FormInput, .FormSelect, button, .FormHasil {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.FormInput, .FormSelect {
+    background-color: #000000;
+    color: #00eeff;
+}
+
+button {
+    cursor: pointer;
+    background-color: #00c3ff;
+    color: #fff7f7;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #fefffd;
+}
+
+.FormHasil {
+    background-color: #000000;
+    color: #00eeff;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: right;
+    padding: 15px;
+    border: 2px solid #00eeff;
+}
